@@ -10,5 +10,19 @@
 <body>
     <div class="container mt-5">
         <h2 class="titulo">Validador de Expresiones Regulares</h2>
-        <for
-        
+        <form id="formulario" class="mt-4">
+            <div class="mb-3">
+                <label for="expresion_regular" class="form-label">Expresion Regular:</label>
+                <input type="text" id="expresion_regular" class="form-control" placeholder="Ingrese la expresion regular" required>
+            </div>
+            <div class="mb-3">
+                <label for="texto_prueba" class="form-label">Texto para probar:</label>
+                <textarea id="texto_prueba" class="form-control" rows="4" placeholder="Ingrese el texto que desea probar" required></textarea>
+            </div>
+            <button type="button" id="boton_validar" class="btn btn-primary">Validar Expresion</button>
+        </form>
+        <div id="resultado" class="mt-4"></div>
+    </div>
+    <script src="./public/js/validacion.js"></script>
+</body>
+</html>
