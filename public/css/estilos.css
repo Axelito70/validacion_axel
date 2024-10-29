@@ -1,0 +1,43 @@
+body {
+    background-color: #000;
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.titulo {
+    color: #ffc107;
+    text-align: center;
+}
+
+.form-label {
+    color: #ffffff;
+}
+
+#boton_validar {
+    background-color: #ffc107;
+    border: none;
+    color: #222;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#boton_validar:hover {
+    background-color: #e0a800;
+}
+
+#resultado {
+    font-size: 1.2em;
+    color: #ffc107;
+    text-align: center;
+}
